@@ -2,7 +2,7 @@
 
 const express = require("express");
 const fs = require("fs");
-const https = require("https");
+const http = require("http");
 const path = require("path");
 
 const app = express();
@@ -11,12 +11,7 @@ const port = 3443;
 
 app.use("/", express.static(path.join(__dirname, "..", directoryToServe)));
 
-const httpsOptions = {
-	cert: fs.readFileSync(path.join(__dirname, "ssl", "server.crt")),
-	key: fs.readFileSync(path.join(__dirname, "ssl", "server.key")),
-};
-
-https.createServer(httpsOptions, app)
+http.createServer(app)
 	.listen(port, function(){
 		console.log(`Serving the ${directoryToServe}/ directory at https://localhost:${port}`);
 	});
