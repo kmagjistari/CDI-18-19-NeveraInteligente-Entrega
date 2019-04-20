@@ -30,6 +30,6 @@ $ node index.js
 Serving the client/ directory at https://localhost:3443
 ```
 
-  - Acceder con un navegador a dicha url => [https://localhost:3443](https://localhost:3443)
+  - Acceder con un navegador a dicha url => [http://localhost:3443](http://localhost:3443)
   
  # Finalmente acccedemos a la aplicación: Nevera Inteligente
