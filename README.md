@@ -31,7 +31,5 @@ Serving the client/ directory at https://localhost:3443
 ```
 
   - Acceder con un navegador a dicha url => [https://localhost:3443](https://localhost:3443)
-  - A continuación se mostrará una pantalla como la siguiente:
   
-  - Pulsamos entiendo los riesgos y deseo continuar
-  - Finalmente acccedemos a la aplicación web
+ # Finalmente acccedemos a la aplicación: Nevera Inteligente
