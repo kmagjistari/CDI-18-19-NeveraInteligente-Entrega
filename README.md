@@ -3,7 +3,7 @@
 Integrantes.
 
   - Jose Manuel Delgado Trueba
-  - Jose Manuel Delgado Trueba
+  - Kristian Magjistari Ziu
   - Jose Manuel Delgado Trueba
   - Jose Manuel Delgado Trueba
 
